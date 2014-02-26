@@ -20,6 +20,7 @@ h3. Extension ID
 
 h3. Usage
 
+```
 var pdfFile = File.documentsDirectory.resolvePath("download/mypdf-file.pdf");
 // note : make sure to put your pdf to accessable path, usually inside documentsDirectory
 var pdfReader:PDFReader = new PDFReader();
@@ -34,10 +35,13 @@ pdfReader.openPDF(pdfFile);
 // PDFReader.ERROR_NO_DEFAULT_APP when no PDF application installed
 // PDFReader.ERROR when open intent failed
 // PDFReader.FILE_NOT_FOUND when in correct file path
+```
 
 Make sure to add this permission on your manifest file:
 
+```
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
 
 h3. Developers
 
