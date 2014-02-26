@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+  <id>com.janumedia.ane.pdfreader</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>PDFReaderANE.jar</nativeLibrary>
+        <initializer>com.janumedia.ane.pdfreader.PDFReaderExtension</initializer>
+        <finalizer>com.janumedia.ane.pdfreader.PDFReaderExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
