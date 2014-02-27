@@ -1,24 +1,21 @@
-h1. PDF Reader ANE for Android
+PDF Reader ANE for Android
+======================================
 
 PDFReaderANE - PDF Reader Native Extension for Android applications using PDF installed Application
 
-h3. Version
+Version
+---------
 
 This is version 1.0 of this extension.
 
-h3. Binary files
-
-The bin folder contains the compiled extension and the default swc, which can be used for local testing if required by your development environment (Flash Builder shouldn't need it, but other IDEs may).
-
-h3. Building
-
-Requirements - Adobe Air SDK 3.5 or later, Eclipse for Java editor
-
-h3. Extension ID
-
+Extension ID
+---------
+```
 <extensionID>com.janumedia.ane.pdfreader</extensionID>
+```
 
-h3. Usage
+Usage
+---------
 
 ```
 var pdfFile = File.documentsDirectory.resolvePath("download/mypdf-file.pdf");
@@ -43,16 +40,7 @@ Make sure to add this permission on your manifest file:
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
-h3. Developers
+Author
+---------
 
-JanuMedia
-http://www.janumedia.com/
-
-h2. License
-
-PDF Reader Native Extension for Android
-
-Author: I Nengah Januartha Owner: JanuMedia.
-http://www.janumedia.com
-
-Copyright (c) 2014, JanuMedia. All rights reserved.
+This ANE has been writen by [I Nengah Januartha](https://github.com/janumedia). It belongs to [JanuMedia Inc.](http://www.janumedia.com) and is distributed under the [Apache Licence, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
